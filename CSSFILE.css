@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #222;
+}
+
+.card {
+
+    width: 100%;
+    max-width: 370px;
+    background: linear-gradient(135deg, #A0E9FF, #687EFF);
+    text-align: center;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    color: #fff;
+    padding: 40px 55px;
+    text-align: center;
+    border: 1px solid skyblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border-radius: 4px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    flex: 1;
+    font-size: 12px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 25px;
+    margin-right: 16px;
+}
+.inputvalue:hover{
+    /* border-color: blue; */
+    color:#192655;
+    cursor: pointer;
+    border: 0.5px solid skyblue;
+    box-shadow: 0 2px 8px 0 rgba(33, 183, 248, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.search button {
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    background: #ebfffc;
+    cursor: pointer;
+}
+.sicon:hover{
+    border: 0.5px solid skyblue;
+    box-shadow: 0 1px 8px 0 rgba(33, 183, 248, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search button img {
+    padding-top: 2px;
+    /* margin-right: -4px; */
+    height: 20px;
+    width: 19px;
+    border-radius: 50%;
+    background: #ebfffc;
+}
+
+.weather {
+    margin-top: 10px;
+}
+
+.wicon {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.degree {
+    margin-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.city {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+}
+.details {
+    margin-top: 10px;
+    width: 100%;
+    color: #222;
+    font-size: 12px;
+}
+
+.humidity {
+    height: 35px;
+    width: 35px;
+}
+
+.humidityvalue {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+}
+
+.windspeedvalue {
+    font-size: small;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.windspeed {
+    height: 35px;
+    width: 35px;
+}
+.weather img {
+    transition: opacity 0.5s ease-in-out;
+}

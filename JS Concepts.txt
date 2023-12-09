@@ -1,0 +1,4 @@
+Async Function
+Await Keyword
+Event Listener
+API Integration with Open Weather

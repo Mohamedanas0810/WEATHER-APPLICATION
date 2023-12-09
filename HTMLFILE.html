@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Apllication</title>
+    <link rel="stylesheet" href="CSSFILE.css">
+    <link rel="icon" type="image/x-icon" href="Images/weather-app.png">
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input class="inputvalue" type="text" placeholder="Enter City Name" spellcheck="false">
+            <button class="sicon"><img src="Images/searchicon.png" alt="search"></button>
+        </div>
+        <div class="hideandshow" id="hideandshow">
+            <div id="weather" class="weather">
+                <img src="Images/location.png" alt="wicon" id="wicon" class="wicon">
+                <h1 id="degree" class="degree"></h1>
+                <h2 id="city" class="city">Enter Your City Name</h2>
+            </div>
+            <hr id="details" class="details" style="margin-top: 10px;">
+            <table id="details" class="details">
+                <tr style="width: 100%;">
+                    <td style="width:50%">
+                        <table class="humidity" style="width: 100%;">
+                            <tr style="width: 100%;">
+                                <td><img src="Images/humidity.png" alt="humidity" class="humidity"></td>
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td id="humidity" class="humidityvalue" style="width: 100%;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title" style="width: 100%;">Humidity</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width: 50%;">
+                        <table class="windspeed" style="width: 100%;">
+                            <tr style="width: 100%;">
+                                <td><img src="Images/wind speed.png" alt="windspeed" class="windspeed"></td>
+                                <td>
+                                    <table style="width: 100%;">
+                                        <tr>
+                                            <td id="windspeed" class="windspeedvalue" style="width: 100%;"></td>
+                                        </tr>
+                                        <tr>
+                                            <td class="title" style="width: 100%;">Wind Speed</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="JSFILE.js"></script>
+</body>
+
+</html>
